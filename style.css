@@ -1723,7 +1723,8 @@ body {
 }
 
 .form-input-group textarea {
-  resize: vertical; 
+  resize: vertical;
+  min-height: 50px;
 }
 
 .contact-submit-btn {
