@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YERLİ Petrol Ofisi</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+
+<div id="uyari-bar">
+  Bu site Web Tasarım dersi kapsamında yapılmıştır ve sitedeki bilgilerin geçerliliği yoktur.
+</div>
+
+<nav class="menu-bar">
+  <div class="logo">
+    <a href="#">
+      <img alt="Logo" src="images/logo.svg">
+    </a>
+  </div>
+  <input type="checkbox" id="menu-toggle" style="display: none;">
+  <label for="menu-toggle" class="menu-icon-btn">☰</label>
+  <ul class="menu-list">
+    <li><a href="#">Ana Sayfa</a></li>
+    <li><a href="pages/about.html">Hakkımızda</a></li>
+    <li><a href="pages/news.html">Duyurular</a></li>
+    <li><a href="pages/campaigns.html">Kampanyalar</a></li>
+    <li><a href="pages/stations.html">İstasyonlar</a></li>
+    <li><a href="pages/products-services.html">Ürün ve Hizmetler</a></li>
+    <li class="menu-iletisim"><a href="pages/contact.html">İletişim</a></li>
+  </ul>
+</nav>
+
+<section class="hero-section">
+  <div class="hero-overlay"></div> 
+  <div class="hero-container">
+    <div class="slider-wrapper">
+      <div class="slides-container">
+        <div class="slide active" data-bg="images/company/c1.jpg"><h2>Yeni V/Max ile Performans Sırası Sizde</h2></div>
+        <div class="slide" data-bg="images/company/c2.jpg"><h2>Yeni V/Max Ailesiyle Tanışın</h2></div>
+        <div class="slide" data-bg="images/company/c3.jpg"><h2>Siz Ne İsterseniz O. Petrol Ofisi</h2></div>
+        <div class="slide" data-bg="images/company/c4.jpg"><h2>Her Yol Petrol Ofisi’ne Çıkıyor</h2></div>
+        <div class="slide" data-bg="images/company/c5.jpg"><h2>BP İstasyonlarını Devralan Petrol Ofisi, Yolların Daimi Lideri!</h2></div>
+        <div class="slide" data-bg="images/company/c6.jpg"><h2>Türkiye'nin 1 numaralı tercihi: AutoMatic Filo</h2></div>
+        <div class="slide" data-bg="images/company/c7.jpg"><h2>Liderliğimizin Kalbi Müşteri Odaklı Teknoloji İle Atıyor</h2></div>
+        <div class="slide" data-bg="images/company/c8.jpg"><h2>Petrol Ofisi'nden Elektrikli Araçlara Özel Ürün Serisi</h2></div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=-McL5VU9sj0" target="_blank" class="hero-btn">Detaylı Bilgi</a>
+      <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <div class="hero-sidebar">
+      <a href="pages/about.html" class="sidebar-box">
+        <div class="box-icon">📍</div>
+        <div class="box-text">
+          <h3>Enerji Sektörünün Öncü Gücü</h3>
+          <p>Hakkımızda daha fazlasını öğren</p>
+        </div>
+      </a>
+      <a href="pages/stations.html" class="sidebar-box">
+        <div class="box-icon">⛽</div>
+        <div class="box-text">
+          <h3>En Yakın İstasyon</h3>
+          <p>Rotandaki PO noktalarını gör</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="fuel-prices-section">
+  <div class="container">
+    <h2>Petrol Ofisi Yakıt Fiyatları</h2>
+    <div class="price-cards">
+      <div class="price-card">
+        <span class="brand-sub">V/Max</span>
+        <h3>Kurşunsuz 95</h3>
+        <div class="card-divider"></div>
+        <div class="price-value">62.87 <span>₺</span></div>
+      </div>
+      <div class="price-card">
+        <span class="brand-sub">V/Max</span>
+        <h3>Diesel</h3>
+        <div class="card-divider"></div>
+        <div class="price-value">66.25 <span>₺</span></div>
+      </div>
+      <div class="price-card">
+        <span class="brand-sub">PO/gaz</span>
+        <h3>Otogaz</h3>
+        <div class="card-divider"></div>
+        <div class="price-value">31.39 <span>₺</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="campaigns-section">
+  <div class="campaigns-overlay"></div>
+  <div class="container campaign-relative">
+    <h2>Kampanyalar</h2>
+    <div class="campaign-slider-container">
+      <div class="campaign-cards">
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>Petrol Ofisi'nden unutulmaz kampanya!</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c1.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>Hadi Alışveriş Kredisi İle Akaryakıt Harcamalarında 3 Ay Vade!</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c2.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>Tatildorukta.com İle Tatilini Planla, Yakıtını Petrol Ofisi'nden Kazan!</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c3.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>AutoMatic Filo - Garanti BBVA VISA İşbirliği</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c4.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>AutoMatic Filo - Mükellef İşbirliği</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c5.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>Garenta'dan %40 İndirim!</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c6.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>Başak Traktör’e Özel Petrol Ofisi MaxiPuan!</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c7.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>Biletinial'dan Petrol Ofisi Müşterilerine İndirim!</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c8.jpg');"></div>
+        </div>
+        <div class="campaign-card">
+          <div class="campaign-header">
+            <h4>Nescafe Xpress 250 ml çeşitleri ve Kitkat Çeşitleri ikili fiyat 100 TL</h4>
+            <span class="arrow-icon">→</span>
+          </div>
+          <div class="campaign-img" style="background-image: url('images/campaigns/long/c9.jpg');"></div>
+        </div>
+      </div>
+    </div>
+    <a href="pages/campaigns.html" class="all-btn">Tümü</a>
+  </div>
+</section>
+
+<section class="station-map-section">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.4526557375253!2d29.022359!3d41.113702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5c52670e97b%3A0xc66512b03fb4ff8a!2sPetrol%20Ofisi%20Genel%20M%C3%BCd%C3%BCrl%C3%BC%C4%9F%C3%BC!5e0!3m2!1str!2str!4v1710000000000!5m2!1str!2str" 
+    width="100%" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  <div class="map-filter-box">
+    <h3>En Yakın İstasyon</h3>
+    <div class="map-select-group">
+      <label>İl Seçiniz</label>
+      <select disabled>
+        <option>Tanımlanmış il yok</option>
+      </select>
+    </div>
+    <div class="map-select-group">
+      <label>İlçe Seçiniz</label>
+      <select disabled>
+        <option>Tanımlanmış ilçe yok</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<section class="news-section">
+  <div class="container news-container">
+    <h2>Haberler ve Duyurular</h2>
+    <div class="news-list">
+      <div class="news-item">
+        <div class="news-img" style="background-image: url('images/news/n1.jpg');"></div>
+        <div class="news-content">
+          <h3>Petrol Ofisi Grubu ve Hicri Ercili’den Türk denizciliğinde yeni referans</h3>
+          <div class="news-meta">
+            <span class="news-date">23.02.2026</span>
+            <span class="news-arrow">↘</span>
+          </div>
+        </div>
+      </div>
+      <div class="news-item">
+        <div class="news-img" style="background-image: url('images/news/n2.jpg');"></div>
+        <div class="news-content">
+          <h3>Petrol Ofisi Grubu’ndan İstanbul’un kalbinde üç istasyon açılışı</h3>
+          <div class="news-meta">
+            <span class="news-date">13.01.2026</span>
+            <span class="news-arrow">↘</span>
+          </div>
+        </div>
+      </div>
+      <div class="news-item">
+        <div class="news-img" style="background-image: url('images/news/n3.jpg');"></div>
+        <div class="news-content">
+          <h3>Petrol Ofisi Grubu’nun İstanbul Havalimanı güzergahındaki istasyonu hizmete açıldı</h3>
+          <div class="news-meta">
+            <span class="news-date">13.01.2026</span>
+            <span class="news-arrow">↘</span>
+          </div>
+        </div>
+      </div>
+      <div class="news-item">
+        <div class="news-img" style="background-image: url('images/news/n4.jpg');"></div>
+        <div class="news-content">
+          <h3>Petrol Ofisi Grubu’nun yeni marka yüzü Kenan Doğulu oldu</h3>
+          <div class="news-meta">
+            <span class="news-date">2.12.2025</span>
+            <span class="news-arrow">↘</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="pages/news.html" class="all-btn">Tümü</a>
+  </div>
+</section>
+
+<section class="mobile-app-section">
+  <div class="app-main-box">
+    <div class="app-info-side">
+      <h2>Petrol Ofisi <br>Mobil</h2>
+      <p class="app-text-desc">
+        Bizi daha yakından takip etmek için yenilenen Petrol Ofisi Mobil Uygulamasını hemen indirin!
+      </p>
+      <div class="app-stores">
+        <a href="https://apps.apple.com/tr/app/petrol-ofisi/id907009662" target="_blank" class="store-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=tr.com.petrolofisi&hl=tr&pli=1" target="_blank" class="store-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+        </a>
+      </div>
+    </div>
+    <div class="app-visual-side">
+      <div class="app-qr-container">
+        <p>QR okut, Mobil uygulamayı indir.</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://play.google.com/store/apps/details?id=tr.com.petrolofisi&hl=tr&pli=1" alt="QR">
+      </div>
+      <div class="app-phone-image"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-info-grid">
+      <div class="footer-info-box">
+        <h4>Genel Müdürlük Adresi</h4>
+        <p>Ünalan Mah. Libadiye Cad. No: 82F, 34700 Üsküdar / İstanbul</p>
+      </div>
+      <div class="footer-info-box">
+        <h4>Müşteri Danışma Hattı</h4>
+        <p>0850 222 6347 / 0800 211 02 29</p>
+      </div>
+      <div class="footer-info-box">
+        <h4>E-Posta</h4>
+        <p>info@petrolofisi.com.tr</p>
+      </div>
+      <div class="footer-info-box">
+        <h4>Fax</h4>
+        <p>+90 216 275 30 00</p>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      <p>© Copyright 2022 Petrol Ofisi | Tüm hakları saklı <u>değildir</u>.</p>
+      <div class="social-links">
+        <a href="https://www.youtube.com/channel/UC8cXYoC1CdPmBd7pALFhbLw" target="_blank" rel="noopener noreferrer">YouTube</a> |
+        <a href="https://www.instagram.com/petrolofisi" target="_blank" rel="noopener noreferrer">Instagram</a> |
+        <a href="https://www.facebook.com/petrolofisi" target="_blank" rel="noopener noreferrer">Facebook</a> |
+        <a href="https://x.com/petrolofisi" target="_blank" rel="noopener noreferrer">X</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
