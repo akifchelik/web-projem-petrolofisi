@@ -2029,12 +2029,7 @@ body {
   }
 
   .menu-bar .menu-list {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 25px !important;
-    
+    display: block !important;
     position: fixed !important;
     top: 0 !important;
     right: -100% !important;
@@ -2042,29 +2037,34 @@ body {
     height: 100vh !important;
     background-color: rgba(26, 28, 30, 0.99) !important;
     
-    padding: 40px !important;
+    padding: 90px 30px 40px 30px !important;
     box-sizing: border-box !important;
     z-index: 9998 !important;
     transition: right 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     box-shadow: -10px 0 30px rgba(0,0,0,0.5) !important;
+    
+    overflow-y: auto !important;
+    list-style: none !important;
   }
 
   .menu-bar .menu-list li {
     margin-left: 0 !important;
+    margin-bottom: 25px !important;
     width: 100% !important;
     text-align: center !important;
   }
 
   .menu-bar .menu-list li a {
     font-size: 1.15rem !important;
-    padding: 10px 0 !important;
+    padding: 8px 0 !important;
     color: #ffffff !important;
+    display: inline-block !important;
   }
 
   .menu-bar .menu-list .menu-iletisim a {
     display: inline-flex !important;
     padding: 12px 35px !important;
-    margin-top: 10px !important;
+    margin-top: 5px !important;
   }
 
   #menu-toggle:checked ~ .menu-list {
